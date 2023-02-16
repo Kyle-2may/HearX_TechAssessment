@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e507b6c4.css",
+    "main.js": "/static/js/main.6a89f29a.js",
+    "static/media/logo_Kyle.png": "/static/media/logo_Kyle.13e07c73095df523ed72.png",
+    "index.html": "/index.html",
+    "main.e507b6c4.css.map": "/static/css/main.e507b6c4.css.map",
+    "main.6a89f29a.js.map": "/static/js/main.6a89f29a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e507b6c4.css",
+    "static/js/main.6a89f29a.js"
+  ]
+}

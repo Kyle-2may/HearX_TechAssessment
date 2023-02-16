@@ -1,0 +1,120 @@
+h1 {
+    margin: 0 0 25px 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #3ca4ae;
+}
+
+.hearx__form-container,
+.hearx__signup-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.hearx__form-container {
+    border: 1px white solid;
+    border-radius: 10px;
+}
+
+.hearx__signup-form-valid {
+    flex: 1;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    padding: 0.5rem 13px;
+    margin: 1px;
+    width: 100%;
+}
+
+.hearx__signup-form-invalid {
+    flex: 1;
+    display: block;
+    box-shadow: 1px 1px 4px red;
+    border-radius: 5px;
+    position: relative;
+    padding: 0.5rem 13px;
+    margin: 1px;
+    width: 100%;
+}
+
+.hearx__form img {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: left;
+}
+
+.hearx__Signup-radiobutton {
+    display: flex;
+    align-items: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.hearx__Signup-checkbox {
+    display: flex;
+    align-items: end;
+    align-items: center;
+    justify-content: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 1rem;
+}
+
+.hearx__Signup-checkbox label {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.hearx__Signup-radiobutton label {
+    font-weight: normal;
+    font-size: 18px
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+}
+
+button {
+    background-color: #565857;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    align-content: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5733;
+}
+
+img {
+    height: auto;
+    width: 250px;
+}
+
+.hearx__Registered {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+}
+
+.hearx__signup-form p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}

@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(180deg, rgba(8, 37, 46, 1) 0%, rgba(43, 156, 183, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(180deg, rgba(8, 37, 46, 1) 0%, rgba(43, 156, 183, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(180deg, rgba(8, 37, 46, 1) 0%, rgba(43, 156, 183, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B9CB7', endColorstr='#08252E', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(180deg, rgba(8, 37, 46, 1) 0%, rgba(43, 156, 183, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(180deg, rgba(8, 37, 46, 1) 0%, rgba(43, 156, 183, 1) 100%);
+}
+
+body {
+    background: gray;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .section__margin {
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+}
